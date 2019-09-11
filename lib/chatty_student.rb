@@ -5,8 +5,10 @@ class ChattyStudent
   end
 
   def raise_hand
-    10.times do
-      "Pick me!"
+    counter=0
+    while n<10
+      puts "Pick me!"
+      counter +=1
     end
   end
 
